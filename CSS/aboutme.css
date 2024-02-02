@@ -1,6 +1,6 @@
 body {
     /* Set the background image */
-    background-image: url('../Backrounds/animated-bg.gif');
+    background-image: url('../Backrounds/circle-bg.gif');
     /* Set background image properties */
     background-size: cover; /* Scale background image to fit container */
     background-position: center; /* Center the background image */

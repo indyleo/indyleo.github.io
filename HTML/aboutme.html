@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/aboutme.css">
     <title>About Me (Indyleo)</title>
 </head>
+<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            text-align: center;
+        } 
+        .navigation-container {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+</style>
 <body>
-    <h1>About Me! (Indyleo)</h1>
-    <p>Hello I am indyleo,</p>
-    <a href="../index.html">Home</a>
+    <div>
+    <h1 class="content" style="color: white;">About Me! (Indyleo)</h1>
+    <p class="content" style="color: white;">Hello, I am Indyleo, a programmer who,</p>
+    <p class="content" style="color: white;">along with a friend, has forked and created a custom version of AwesomeWM called Dawesomem.</p>
+    <p class="content" style="color: white;">We named it as a tribute to DWM,  which is the original source of AwesomeWM.</p>
+    </div>
+    <div class="navigation-container">
+    <a href="../index.html" style="color: white;">Home</a>
+    </div>
 </body>
 </html>
