@@ -1,8 +1,8 @@
 body {
     /* Set the background image */
-    background-image: url('./backround.jpg');
+    background-image: url('../Backrounds/backround.jpg');
     /* Set background image properties */
-    background-size: contain; /* Scale background image to fit container */
+    background-size: cover; /* Scale background image to fit container */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
     /* Additional styles for body */
