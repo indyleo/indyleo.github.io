@@ -2,13 +2,11 @@ body {
     /* Set the background image */
     background-image: url('../Backrounds/animated-bg.gif');
     /* Set background image properties */
-    background-size: contain; /* Scale background image to fit container */
+    background-size: cover; /* Scale background image to fit container */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
     /* Additional styles for body */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    height: 100vw;
-    height: 100vh;
 }
