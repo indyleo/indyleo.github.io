@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slideshow of rices</title>
+        <link rel="stylesheet" href="../CSS/slideshow.css">
+    </head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            text-align: center;
+        }
+        .navigation-container {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+      </style>
+    <body>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="../Images/rice1.png" alt="Slide 1">
+            </div>
+            <div class="slide fade">
+                <img src="../Images/rice2.png" alt="Slide 2">
+            </div>
+            <div class="slide fade">
+                <img src="../Images/rice3.png" alt="Slide 3">
+            </div>
+            <div class="slide fade">
+                <img src="../Images/rice4.png" alt="Slide 4">
+            </div>
+            <div class="slide fade">
+                <img src="../Images/rice5.png" alt="Slide 5">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <script src="../JS/script.js"></script>
+        <div class="navigation-container">
+            <a href="../index.html" style="color: white;">Home</a>
+            <a href="../HTML/aboutme.html" style="color: white;">About Me (Indyleo)</a>
+        </div>
+    </body>
+</html>
